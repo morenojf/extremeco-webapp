@@ -1,0 +1,166 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+body{
+	background-color: #f4f4f4;
+}
+.navbar{
+	position: absolute;
+	top: 0;
+	z-index: 99999;
+	
+}
+#navbar-container{
+    background-color: rgba(0, 0, 0, 0.2);
+    height:auto;
+  
+}
+.navbar .logo{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+.navbar ul.nav{
+	margin-right: 15%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background:rgba(255, 255, 255, 0.5);
+	color: #000;
+
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+
+
+/*slider*/
+#carouselExampleIndicators{
+	position: relative;
+	height: 400px;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #000;
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+/* Items Carousel */
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('../img/Ciclismo\ Mountain.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('../img/kitesurf.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('../img/rafting.jpg');
+	background-size: 100% 100%;
+	background-position: center;
+	background-attachment: fixed;
+}
+/* End Items Carousel */
+
+
+
+
+
+.disable{
+    pointer-events:none
+    
+}
+
+.navbar a img{
+width: 100px;
+size: 100px;
+}
+
+#exampleModal{
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+.main .modal div div{
+    padding: 20px;
+}
+
+
+.fa-cog {
+    color: #fff;
+   
+}
+
+.carousel{
+    height: 90%;
+}
+
+/* footer */
+footer{
+    background-color: black;    
+}
+span
+{
+    color: lightblue;
+}
+
+#mainContainer{
+	text-align: justify;
+	width: 1100px;
+	height: auto;
+	margin-top: 40px;
+	background-color: #fff;
+
+}
+.elements{
+
+	padding: 30px;
+}
+
+
+
+
+/* acordeon */
+.acordeon{
+    margin-left: 20px;
+    width: 40%;
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px black ;
+    margin-bottom: 60px;
+}
+
+

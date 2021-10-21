@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Colombia</title>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- jquery cdn -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="" />
+    <!--CSS PURO-->
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+
+<body>
+<!-- Modal beginning -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Inicia Sesion</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Correo Electrónico</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie más</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="inputPassword6">Password</label>
+                      <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                      <small id="passwordHelpInline" class="text-muted">
+                        Debe contener 8-20 caracteres.
+                      </small>
+                    </div>
+                  </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="button" id="btnIngresar" class="btn btn-primary">Ingresar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<!-- End Modal -->
+
+<!-- Starting NavBar -->
+    <nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 navbar" id="navbar-container">
+                    <div class="col-4">
+                    <a href="index.html" class="logo navbar-brand text-white offset-md-2"><img src="img/logotipoXCO (1).png" alt="logotipoXCO"></a>
+                    </div>
+                    <div class="col-5">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Curiosidades</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Favoritos</a></li>
+                        <li class="nav-item"><a href="index.html" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                            Log-In
+                        </a></li>
+                    </ul>
+                    </div>
+                </div>
+    </nav>
+<!-- Ending NavBar -->
+
+<!-- Start Slider	 -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"> 
+            <div class="carousel-item active">
+            </div>
+            <div class="carousel-item">
+            </div>
+            <div class="carousel-item">     
+                </div>
+            </div>
+    </div>
+<!-- End Slider -->     
+
+
+<div class="container" id="mainContainer">
+  <div class="elements">
+    <div class="body-head">
+          <h1>EXTREME COLOMBIA</h1>
+    </div>
+    <div class="body-description">
+         <p>Si eres un amante de la naturaleza, los paisajes de Colombia y la adrenalina entonces has llegado al lugar correcto.</p>  <br><br>
+    </div>
+    <div class="sports-ubications">
+      <h3>Ubicaciones para practicar deportes extremos en Colombia</h3>
+      <p>Echa un vistazo a las diversas ubicaciones ofrecidas para un día de adrenalina.</p>
+    </div>
+
+
+
+<!--Acordeon-->
+<section class="acordeon">
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+        <div class="card-header" id="headingOne">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Balsismo
+            </button>
+          </h2>
+        </div>
+    
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            El descenso de ríos o balsismo, conocido mundialmente como rafting, es una actividad deportiva y recreativa que consiste en recorrer el río en la dirección de la corriente, por lo general sobre algún tipo de embarcación o balsa.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Escalada
+            </button>
+          </h2>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            La escalada es una actividad que consiste en realizar ascensos sobre paredes, valiéndose de la fuerza física propia. Se considera escalada todo ascenso con las extremidades inferiores y las extremidades superiores.           </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Paracaidismo
+            </button>
+          </h2>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            El paracaidismo es la técnica de lanzamiento desde cierta altura usando un paracaídas para amortiguar el impacto del aterrizaje. Se puede realizar desde cualquier aeronave como un avión, helicóptero, globo aerostático o desde un objeto fijo.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Parapente
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            El parapente es un deporte nacido a finales del siglo XX por la inventiva de montañeros que querían bajar volando mediante un paracaídas desde las cimas que habían ascendido. El ala, y a veces todo el equipo, se llama así con el mismo nombre, parapente. La definición técnica sería algo así: planeador ligero flexible.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Puentismo
+            </button>
+          </h2>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            El puenting o la forma inglesa bungee jumping, en español puentismo, es una actividad en la cual una persona se lanza desde una altura elevada, con uno de los puntos de la cuerda elástica atada al torso o al tobillo, y el otro extremo sujetado al punto de partida del salto.</div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h2 class="mb-0">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Tirolesa
+            </button>
+          </h2>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Una tirolesa, tirolina, dosel, canopi, canopy, cable o zip line​ consiste en una polea suspendida por cables montados en un declive o inclinación.</div>
+        </div>
+      </div>
+    
+    </div>
+    </section>
+  </div>
+</div>
+<!-- End Acdordeon -->
+
+<!-- Footer -->
+    <footer>
+        <div class="d-flex justify-content-center">
+            <div class="pt-4 bd-highlight"><a href="#"></a><i class="fab fa-2x fa-facebook-f fa-cog px-2"></i></a></div>
+            <div class="pt-4 bd-highlight"><a href="#"></a><i class="fab fa-2x fa-instagram fa-cog px-2"></i></a></div>
+            <div class="pt-4 bd-highlight"><a href="#"></a><i class="fab fa-2x fa-github fa-cog px-2"></i></a></div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p>Creado por <span>ExtremeTeam.</span></p>
+        </div>
+    </footer>
+<!-- End Footer -->
+   
+
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script type="text/javascript"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/loginUsers.js"></script>
+</body>
+
+</html>
