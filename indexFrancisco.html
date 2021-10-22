@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Colombia</title>
+     <!-- Favicon -->
+     <link  rel="icon"   href="img/logotipoXCO (1).png" type="image/png" />
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- jquery cdn -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" type="text/css" href="" />
+    <!--CSS PURO-->
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+
+
+<body>
+
+
+<!-- Starting NavBar -->
+    <nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 navbar" id="navbar-container">
+                    <div class="col-4">
+                    <a href="index.html" class="logo navbar-brand text-white offset-md-2"><img src="img/logotipoXCO (1).png" alt="logotipoXCO"></a>
+                    </div>
+                    <div class="col-7">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="indexFrancisco.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="curiositiesFrancisco.html" class="nav-link">Curiosidades</a></li>
+                        <li class="nav-item"><a href="favoritiesFrancisco.html" class="nav-link">Favoritos</a></li>
+                        <li class="nav-item"><a href="indexFrancisco.html" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                            Francisco Moreno
+                        </a></li>
+                        <li class="nav item"><a href="index.html" class="nav-link"><i title="Cerrar sesión" class="fas fa-power-off"></i></a></li>
+                    </ul>
+                    </div>
+                </div>
+    </nav>
+<!-- Ending NavBar -->
+
+<!-- Start Slider	 -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner"> 
+          <div class="carousel-item active">
+            <div class="info">
+              <h1>EXTREME COLOMBIA</h1>
+              <p>Si eres un amante de la naturaleza, los paisajes de Colombia y la adrenalina, entonces has llegado al lugar correcto.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="info">
+              <h1>EXTREME COLOMBIA</h1>
+              <p>Si eres un amante de la naturaleza, los paisajes de Colombia y la adrenalina, entonces has llegado al lugar correcto.</p>
+            </div>
+          </div>
+          <div class="carousel-item">  
+            <div class="info">
+              <h1>EXTREME COLOMBIA</h1>
+              <p>Si eres un amante de la naturaleza, los paisajes de Colombia y la adrenalina, entonces has llegado al lugar correcto.</p>
+            </div>   
+              </div>
+          </div>
+  </div>
+<!-- End Slider -->     
+
+
+<!-- ContainerBody -->
+<div class="container" id="mainContainer">
+
+  <!-- elementos -->
+  <div class="elements">
+    <div class="sports-ubications">
+      <h3>Ubicaciones para practicar deportes extremos en Colombia</h3>
+      <p>Echa un vistazo a las diversas ubicaciones ofrecidas para un día de adrenalina.</p>
+    </div>
+
+
+
+<!--Acordeon-->
+<section class="acordeon">
+    <div class="accordion" id="accordionExample">
+
+<!-- start rafting -->
+    <div class="card">
+        <div class="card-header row" id="headingOne">
+            <button type="button" class="btn"><i class="far fa-2x fa-star" title="añadir a favorito"></i></button>
+            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Balsismo
+            </button>
+        </div>
+<!-- description -->
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">
+            El descenso de ríos o balsismo, conocido mundialmente como rafting, es una actividad deportiva y recreativa que consiste en recorrer el río en la dirección de la corriente, por lo general sobre algún tipo de embarcación o balsa.
+          </div>
+        </div>
+      </div>
+<!-- end description -->
+<!-- end rafting -->
+
+<!-- start climbing -->
+    <div class="card">
+    <div class="card-header" id="headingTwo">
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Escalada
+            </button>
+        </div>
+<!-- description -->
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            La escalada es una actividad que consiste en realizar ascensos sobre paredes, valiéndose de la fuerza física propia. Se considera escalada todo ascenso con las extremidades inferiores y las extremidades superiores.           </div>
+        </div>
+      </div>
+<!-- end description -->
+<!-- end climbing -->
+
+
+<!-- start paracaidismo -->  
+    <div class="card">
+        <div class="card-header" id="headingTwo">   
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Paracaidismo
+            </button>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            El paracaidismo es la técnica de lanzamiento desde cierta altura usando un paracaídas para amortiguar el impacto del aterrizaje. Se puede realizar desde cualquier aeronave como un avión, helicóptero, globo aerostático o desde un objeto fijo.</div>
+        </div>
+      </div>
+<!-- end description -->
+<!-- end paracaidismo -->
+
+<!-- start parapente -->  
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+        
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Parapente
+            </button>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            El parapente es un deporte nacido a finales del siglo XX por la inventiva de montañeros que querían bajar volando mediante un paracaídas desde las cimas que habían ascendido. El ala, y a veces todo el equipo, se llama así con el mismo nombre, parapente. La definición técnica sería algo así: planeador ligero flexible.</div>
+        </div>
+      </div>
+<!-- end description -->
+<!-- end parapente -->
+
+<!-- start puentismo -->  
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+        
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Puentismo
+            </button>
+        </div>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            El puenting o la forma inglesa bungee jumping, en español puentismo, es una actividad en la cual una persona se lanza desde una altura elevada, con uno de los puntos de la cuerda elástica atada al torso o al tobillo, y el otro extremo sujetado al punto de partida del salto.</div>
+        </div>
+      </div>
+<!-- end description -->
+<!-- end puentismo -->
+
+<!-- start tirolesa -->  
+    <div class="card">
+        <div class="card-header" id="headingTwo">
+        
+            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Tirolesa
+            </button>
+        </div>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">
+            Una tirolesa, tirolina, dosel, canopi, canopy, cable o zip line​ consiste en una polea suspendida por cables montados en un declive o inclinación.</div>
+        </div>
+      </div>
+<!-- end description -->
+<!-- end puentismo -->
+    
+    </div>
+</section>
+<!-- End Acdordeon -->
+    </div>
+  <!-- elementos -->
+</div>
+<!-- ContainerBody -->
+
+
+<!-- Footer -->
+    <footer>
+        <div class="d-flex justify-content-center">
+            <div class="pt-4 bd-highlight"><a href="https://www.facebook.com/"></a><i class="fab fa-2x fa-facebook-f fa-cog px-2"></i></a></div>
+            <div class="pt-4 bd-highlight"><a href="https://www.instagram.com/"></a><i class="fab fa-2x fa-instagram fa-cog px-2"></i></a></div>
+            <div class="pt-4 bd-highlight"><a href="github.com"></a><i class="fab fa-2x fa-github fa-cog px-2"></i></a></div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <p>Creado por <span>ExtremeTeam.</span></p>
+        </div>
+    </footer>
+<!-- End Footer -->
+   
+
+    <!-- scripts -->
+    <!-- bootstrap javascript cdn -->
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="js/interaction.js"></script>
+    <script src="js/loginUsers.js"></script>
+    
+</body>
+
+</html>

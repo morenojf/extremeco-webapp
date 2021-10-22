@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme Colombia</title>
+<!-- ------------------------------------------------------------------------------------------------------------ -->
+   <!-- Favicon -->
+   <link  rel="icon"   href="img/logotipoXCO (1).png" type="image/png" />  
+
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" />
+    
+    <link rel="stylesheet" href="css/styleCuriosities.css">
+    
+    <!-- jquery cdn -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+
+
+<!-- ---------------------------------------------------------------------------------------------------------- -->
+
+    
+</head>
+<body>
+
+<!-- Modal beginning -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Inicia Sesion</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie más</small>
+                </div>
+                <div class="form-group">
+                  <label for="inputPassword6">Password</label>
+                  <input type="password" id="inputPassword6" class="form-control mx-sm-3" aria-describedby="passwordHelpInline">
+                  <small id="passwordHelpInline" class="text-muted">
+                    Debe contener 8-20 caracteres.
+                  </small>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          <button type="button" id="btnIngresar" class="btn btn-primary">Ingresar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- End Modal -->
+
+<!-- Starting NavBar -->
+<nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 navbar" id="navbar-container">
+                <div class="col-4">
+                <a href="index.html" class="logo navbar-brand text-white offset-md-2"><img src="img/logotipoXCO (1).png" alt="logotipoXCO"></a>
+                </div>
+                <div class="col-5">
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="curiosities.html" class="nav-link">Curiosidades</a></li>
+                    <li class="nav-item"><a href="favorites.html" class="nav-link">Favoritos</a></li>
+                    <li class="nav-item"><a href="index.html" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                        Log-In
+                    </a></li>
+                </ul>
+                </div>
+            </div>
+</nav>
+<!-- Ending NavBar -->
+
+
+<div id="mainContainer">
+ <!-- Titulo -->
+<div id="escrito">
+<h3 id="titulo">CURIOSIDADES <i id="rojo" class="fas fa-check"></i></h3>
+
+ <!-- Texto -->
+<p>  <b>Conocer un lugar nuevo es una experiencia increíble</b> para cualquier amante 
+  de los viajes ya sea por romper la rutina, un corazón roto, estudiar, trabajar o 
+  simplemente por ocio. Hay mil razones para viajar
+  bien dicen que un viaje es una enseñanza para toda la vida, y si eres de las
+   personas a las que constantemente les dicen que viajan mucho, pues
+   te tenemos unos datos súper curiosos sobre estas actividades <br>
+   <b> Viajar es como una medicina</b>, estudios demuestran que al hacerlo estimulamos 
+   nuestro cerebro, ya que aumenta la capacidad de resolución de problemas. 
+   También se reduce el riesgo de padecer un infarto, combate la depresión, 
+   se regula la presión arterial, aumenta el autoestima. Y lo más importante, 
+   viajar te hace más feliz que comprar, ya que<b> la satisfacción de tener varias 
+   experiencias dura mucho más tiempo que tener algo material.</b> <br>
+   Viajar dentro de Colombia se esta convirtiendo en un faro para todos aquellos
+    viajeros que buscan una geografia diversa (playas, selvas, montaña, desierto y ciudad) 
+    y hospitalidad por doquier. <br>
+    <b> Es un hecho:</b> Colombia está renaciendo poco a poco y abriendole las puertas cada más a cualquier 
+    persona que desee conocerla.
+
+  Conoce los datos mas sorprendentes de estas actividades extremas</p> 
+  <h6 id="warning"> <i id="warningdos" class="fas fa-exclamation-triangle"></i> Pasa el cursor sobre la actividad que te interese <i id="warningtres" class="fas fa-exclamation-triangle"></i></h6>
+
+</div>
+
+
+
+
+
+
+ <!-- Carta 1 -->
+<div id="card-container" class="text-center">
+  <div class="tarjeta">
+    <div class="frente">
+        <figcaption>BALSISMO<i class="fas fa-ship"></i></figcaption>
+      <img src="img/rafting.jpg" alt="rafting">
+    </div>
+    <div class="espalda">
+      <h4>BALSISMO<i class="fas fa-ship"></i></h4>
+      <p class="textoTarjeta">
+
+        Las embarcaciones más comunes que se utilizan son la balsa, la canoa o el kayak, que puede ser rígido o inflable.
+        Uso correcto del equipo básico personal: casco, chaleco y remo.
+        Río Suárez (Socorro, Santander) Clase III/V
+        Río Magdalena (San Agustín, Huila) Clase III/V
+        Rio Negro(Tobia,Cundinamarca)Clase lll/lll
+        Rios Barragán, Verde y La Vieja(Quindio)Clase ll!</p>
+    </div>
+  </div>
+
+ <!-- Carta 2 -->
+  <div class="tarjeta">
+    <div class="frente">
+        <figcaption>PARACAIDISMO <i class="fab fa-fly"></i></figcaption>
+      <img src="img/paracaidismo.jpeg" alt="paracaidismo">
+    </div>
+    <div class="espalda">
+      <h4>PARACAIDISMO <i class="fab fa-fly"></i></h4>
+      <p class="textoTarjeta"> El uso del paracaídas se remonta a China en el siglo 
+          12. El sitio web de la Asociación de Paracaidismo de EEUU señala que en 1495 
+          Leonardo Da Vinci diseñó uno piramidal, con estructura ¡de madera!.
+           El primer salto en la era moderna lo realizó el francés André-Jacques Garnerin en 1797, 
+          desde un globo, a 3,200 pies -975 metros- sobre París.</p>
+    </div>
+  </div>
+<!-- Carta 3 -->
+  <div class="tarjeta">
+    <div class="frente">
+        <figcaption>PUENTING <i class="fas fa-parachute-box"></i></figcaption>
+      <img src="img/bungee.jpeg" alt="bungee jumping">
+    </div>
+    <div class="espalda">
+      <h4>PUENTING<i class="fas fa-parachute-box"></i></h4>
+      <p class="textoTarjeta"> Sabias que las personas en silla de ruedas también pueden hacer 
+        puenting?, El puente mas alto esta en Sudáfrica, con una altura de 
+        216 metros. Hubo un record en 2012, donde 135 personas se lanzaron 
+        desde un puente en rusia.</p>
+    </div>
+  </div>
+  <!-- Carta 4 -->
+  <div class="tarjeta">
+    <div class="frente">
+        <figcaption>TIROLESA <i class="fas fa-tram"></i></figcaption>
+      <img src="img/tiroless.jpeg" alt="tirolesa">
+    </div>
+    <div class="espalda">
+      <h4>TIROLESA <i class="fas fa-tram"></i></h4>
+      <p class="textoTarjeta">  El transporte de combustible por gravedad mediante cables y poleas
+         roscadas entre dos puntos fue creado por los trabajadores y residentes
+         que necesitaban para transportar rápidamente a las personas y 
+         suministros a través de cañones, ríos y otras zonas intransitables
+         en las regiones remotas de China. ¿Se imaginan recorrer 3 kilómetros 
+         de distancia a más de mil 600 metros de altura? Pues eso es lo que
+         mide la tirolesa más larga del mundo, el nuevo atractivo turístico 
+          en los Emiratos Árabes Unidos (EAU).</p>
+    </div>
+  </div>
+<!-- Carta 5 -->
+  <div class="tarjeta" id="abajo">
+    <div class="frente">
+        <figcaption>ESCALADA <i class="fas fa-mountain"></i></figcaption>
+      <img src="img/climbing.jpeg" alt="climbing">
+    </div>
+    <div class="espalda">
+      <h4>ESCALADA <i class="fas fa-mountain"></i></h4>
+      <p class="textoTarjeta"> El magnesio liquido para la escalada, 
+        Se impregna muy bien en la manos y dura más que el magnesio en polvo. 
+        De los factores más importantes para ESCALAR es la flexibilidad, mejora 
+        es con un adecuado estiramiento.De los factores más importantes para ESCALAR
+        es la flexibilidad, mejora es con un adecuado estiramiento.</p>
+      </div>
+    </div>
+<!-- Carta 6 -->
+    <div class="tarjeta" id="abajo">
+      <div class="frente">
+          <figcaption>SENDERISMO <i class="fas fa-hiking"></i></figcaption>
+        <img src="img/senderismo.jpg" alt="">
+      </div>
+      <div class="espalda">
+        <h4>SENDERISMO <i class="fas fa-hiking"></i></h4>
+        <p class="textoTarjeta"> El origen del senderismo como actividad organizada la podemos datar 
+          en el siglo XIX ya que antes de este siglo el caminar se asociada a un 
+          medio de locomoción o a la pobreza más que a una actividad recreativa. 
+        El sacerdote ingles llamado Thomas West promovió la actividad con la publicación de su guía de caminatas
+        por el Distrito de los Lagos en Inglaterra.</p>
+        </div>
+      </div>
+</div>
+</div>
+</div>
+
+ <!--Footer  -->
+    
+    <footer>
+      <div class="d-flex justify-content-center">
+          <div class="pt-4 bd-highlight"><a href="#"></a><i class="fab fa-2x fa-facebook-f fa-cog px-2"></i></a></div>
+          <div class="pt-4 bd-highlight"><a href="#"></a><i class="fab fa-2x fa-instagram fa-cog px-2"></i></a></div>
+          <div class="pt-4 bd-highlight"><a href="#"></a><i class="fab fa-2x fa-github fa-cog px-2"></i></a></div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p>Creado por<span> ExtremeTeam.CO</span></p>
+      </div>
+  </footer>
+
+
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/interaction.js"></script>
+<script src="js/loginUsers.js"></script>
+
+</body>
+</html>

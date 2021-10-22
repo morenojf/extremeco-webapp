@@ -1,0 +1,218 @@
+/* google-fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+
+}
+
+body{
+	background-color: #f4f4f4;
+}
+.navbar{
+	position: absolute;
+	top: 0;
+	z-index: 99999;
+	
+}
+#navbar-container{
+    background-color: rgba(0, 0, 0, 0.2);
+    height:auto;
+  
+}
+.navbar .logo{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+.navbar ul.nav{
+	margin-right: 15%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background:rgba(255, 255, 255, 0.5);
+	color: #000;
+
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+
+.disable{
+    pointer-events:none
+    
+}
+
+#exampleModal{
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+
+.navbar a img{
+width: 100px;
+size: 100px;
+}
+
+.main .modal{
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+.main .modal div div{
+    padding: 20px;
+}
+
+
+.fa-cog {
+    color: #fff;
+   
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 1);
+    height: 10%;
+
+ 
+}
+
+#navbar-container{
+    background-color: rgba(0, 0, 0, 1);
+    height:auto;
+  
+}
+
+footer{
+  background-color: black;    
+}
+
+span
+{
+  color: lightblue;
+}
+
+
+* { box-sizing: border-box;}
+
+#titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+#escrito{
+    margin-left: 90px;
+    margin-right: 90px;
+
+
+}
+
+.textoTarjeta {
+    font-size: 12px;
+}
+
+
+#warning {
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+  text-shadow: -2px -2px 1px yellow;
+}
+#warningdos {
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: yellow;
+    text-shadow: -2px -2px 1px black;
+  }
+  #warningtres {
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    color: yellow;
+    text-shadow: -2px -2px 1px black;
+  }
+
+.tarjeta {
+  width: 350px;
+  height:300px;
+  position:relative;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  margin-left: 50px;
+  margin-top: 40px;
+  display: inline-flex;
+}
+
+.tarjeta:hover {
+  transform: rotateY(.5turn);
+}
+
+.frente, .espalda {
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  position: absolute;
+  align-content: center;
+  overflow:hidden;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+.frente {
+  transform: translateZ(1px); 
+}
+.espalda {
+  background-color: #f1f1f1;
+  padding:20px;
+  transform: rotateY(.5turn);
+}
+.espalda h1, .espalda p {
+  transform: translateZ(2px) 
+}
+
+#abajo {
+  align-content: center;
+}
+
+#card-container{
+	margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+#mainContainer{
+	text-align: justify;
+	width: auto;
+	height: auto;
+	margin-top: 40px;
+	background-color: #fff;
+}
+
+figcaption {
+    font-size: 20px;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
+
+#rojo {
+    color: red;
+}

@@ -1,0 +1,127 @@
+/* google-fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,800,900&display=swap');
+
+
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+
+}
+
+.favoritos
+{
+	border: solid black 2px;
+	width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+
+body{
+    background-image: url("../img/espeleología.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+	position: absolute;
+	top: 0;
+	z-index: 99999;
+	
+}
+#navbar-container{
+    background-color: rgba(0, 0, 0, 0.2);
+    height:auto;
+  
+}
+.navbar .logo{
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+}
+.navbar ul.nav{
+	margin-right: 15%;
+}
+.navbar ul.nav li.active,
+.navbar ul.nav li:hover{
+	background:rgba(255, 255, 255, 0.5);
+	color: #000;
+
+}
+.navbar ul.nav li a{
+	color: #fff;
+	font-size: 1em;
+	font-weight: 500;
+}
+.navbar ul.nav li.active a,
+.navbar ul.nav li:hover a{
+	color: #000;
+}
+
+.disable{
+    pointer-events:none
+    
+}
+
+#exampleModal{
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+
+.navbar a img{
+width: 100px;
+size: 100px;
+}
+
+.main .modal{
+    margin-top: 50px;
+    padding-top: 40px;
+
+}
+
+.main .modal div div{
+    padding: 20px;
+}
+
+
+.fa-cog {
+    color: #fff;
+   
+}
+
+
+footer{
+    background-color: rgba(0, 0, 0, 1);
+    background-color: black;  
+    position: fixed;
+    bottom: 0;   
+    width: 200vh;  
+
+ 
+}
+
+#navbar-container{
+    background-color: rgba(0, 0, 0, 1);
+    height:auto;
+  
+}
+
+
+
+.description-logeed-out{
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+  
+}
+span
+{
+    color: lightblue;
+}
