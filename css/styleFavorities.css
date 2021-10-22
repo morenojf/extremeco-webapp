@@ -100,11 +100,15 @@ size: 100px;
 footer{
     background-color: rgba(0, 0, 0, 1);
     background-color: black;  
-    position: fixed;
+    position: absolute;
     bottom: 0;   
     width: 200vh;  
 
  
+}
+footer div p{
+	color: #fff;
+      
 }
 
 #navbar-container{

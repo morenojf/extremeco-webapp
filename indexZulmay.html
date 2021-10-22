@@ -96,14 +96,16 @@
 <!--Acordeon-->
 <section class="acordeon">
     <div class="accordion" id="accordionExample">
-
+      <form id="formulario1">
 <!-- start rafting -->
     <div class="card">
         <div class="card-header row" id="headingOne">
-            <button type="button" class="btn"><i class="far fa-2x fa-star" title="añadir a favorito"></i></button>
-            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Balsismo
+          <div class="btn-group">
+            <button type="submit" class="btn"><i class="far fa-2x fa-star" title="Añadir a favorito"></i></button>
+            <button class="btn btn-link btn-block text-left"  style="color: black;" type="button"  id="raftingBtn" value="BALSISMO" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              BALSISMO
             </button>
+          </div>
         </div>
 <!-- description -->
         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -114,13 +116,18 @@
       </div>
 <!-- end description -->
 <!-- end rafting -->
+      </form>
 
+      <form id="formulario2">
 <!-- start climbing -->
     <div class="card">
     <div class="card-header" id="headingTwo">
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Escalada
+      <div class="btn-group">
+        <button type="submit" class="btn"><i class="far fa-2x fa-star" title="Añadir a favorito" ></i></button>
+            <button class="btn btn-link btn-block text-left collapsed" style="color: black;" id="climbingBtn" value="ESCALADA" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ESCALADA
             </button>
+        </div>
         </div>
 <!-- description -->
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -130,14 +137,18 @@
       </div>
 <!-- end description -->
 <!-- end climbing -->
+      </form>
 
-
+      <form id="formulario3">
 <!-- start paracaidismo -->  
     <div class="card">
-        <div class="card-header" id="headingTwo">   
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Paracaidismo
+        <div class="card-header" id="headingTwo"> 
+          <div class="btn-group">
+            <button type="submit" class="btn"><i class="far fa-2x fa-star" title="Añadir a favorito" ></i></button>  
+            <button class="btn btn-link btn-block text-left collapsed" style="color: black;" id="paracaidismoBtn" value="PARACAIDISMO" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              PARACAIDISMO
             </button>
+          </div>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
@@ -146,14 +157,18 @@
       </div>
 <!-- end description -->
 <!-- end paracaidismo -->
+        </form>
 
+        <form id="formulario4">
 <!-- start parapente -->  
     <div class="card">
         <div class="card-header" id="headingTwo">
-        
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Parapente
+          <div class="btn-group">
+            <button type="submit" class="btn"><i class="far fa-2x fa-star" title="Añadir a favorito" ></i></button>
+            <button class="btn btn-link btn-block text-left collapsed" style="color: black;" id="parapenteBtn" value="PARAPENTE" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              PARAPENTE
             </button>
+          </div>
         </div>
         <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
@@ -162,14 +177,18 @@
       </div>
 <!-- end description -->
 <!-- end parapente -->
+        </form>
 
+        <form id="formulario5">
 <!-- start puentismo -->  
     <div class="card">
         <div class="card-header" id="headingTwo">
-        
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-              Puentismo
+          <div class="btn-group">
+            <button type="submit" class="btn"><i class="far fa-2x fa-star" title="Añadir a favorito" ></i></button>
+            <button class="btn btn-link btn-block text-left collapsed" style="color: black;" id="puentismoBtn" value="PUENTISMO" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              PUENTISMO
             </button>
+          </div>
         </div>
         <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
@@ -178,14 +197,18 @@
       </div>
 <!-- end description -->
 <!-- end puentismo -->
+        </form>
 
+        <form id="formulario6">
 <!-- start tirolesa -->  
     <div class="card">
         <div class="card-header" id="headingTwo">
-        
-            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              Tirolesa
+          <div class="btn-group">
+            <button type="submit" class="btn"><i class="far fa-2x fa-star" title="Añadir a favorito" ></i></button>
+            <button class="btn btn-link btn-block text-left collapsed" style="color: black;" id="tirolesaBtn" value="TIROLESA" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              TIROLESA
             </button>
+            </div>
         </div>
         <div id="collapseSix" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
           <div class="card-body">
@@ -193,8 +216,8 @@
         </div>
       </div>
 <!-- end description -->
-<!-- end puentismo -->
-    
+<!-- end tirolesa -->
+      </form>
     </div>
 </section>
 <!-- End Acdordeon -->
@@ -223,6 +246,7 @@
     <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="js/interaction.js"></script>
     <script src="js/loginUsers.js"></script>
+    <script src="js/app.js"></script>
     
 </body>
 
